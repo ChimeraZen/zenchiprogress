@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import * as serviceWorker from './serviceWorker'
-import { ZenChiProgress } from './lib'
+import Progress from './lib/Progress'
 
 
-ReactDOM.render(<ZenChiProgress 
+ReactDOM.render(<Progress 
                   //title="Example" 
                   //withBorder
                   max={100} 

@@ -3,7 +3,7 @@
 **Description**:  The ZenChi Progress component uses React v16.6 and the HTML5 canvas element
                   to draw a progress bar that uses the requestAnimationFrame API
 
-**Version**:      [1.0.0](#v100)  
+**Version**:      [1.0.1](#v101)  
 **Author**:       Elijah Liedtke (Chimera.Zen)  
 **Link**:         https://github.com/ChimeraZen/ZenChiProgress
 
@@ -73,5 +73,10 @@ barColor       |string   |#2196F3 |RGB\/A \| HEX \| COLOR  |Bar color
 ---
 
 ## ChangeLog
+### v1.0.1
+* Update for NPM
+
+
+
 ### v1.0.0
 * Version 1.0.0

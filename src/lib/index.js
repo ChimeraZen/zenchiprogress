@@ -1,3 +1,5 @@
-import ZenChiProgress from './ZenChiProgress'
+import Progress from './progress'
 
-export { ZenChiProgress }
+export {
+  Progress
+}
