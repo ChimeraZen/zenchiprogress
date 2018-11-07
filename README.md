@@ -1,11 +1,11 @@
 # ZenChi Progress
   
-**Description**:  The ZenChi Progress component uses the HTML5 canvas element
+**Description**:  The ZenChi Progress component uses React v16.6 and the HTML5 canvas element
                   to draw a progress bar that uses the requestAnimationFrame API
 
 **Version**:      [1.0.0](#v100)  
 **Author**:       Elijah Liedtke (Chimera.Zen)  
-**Link**:         https://github.com/ChimeraZen/ZenApps
+**Link**:         https://github.com/ChimeraZen/ZenChiProgress
 
 **Copyright**:    Copyright (c) 2018, Elijah Liedtke  
 **License**:      http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -37,7 +37,7 @@
 Name        |Type     |Default|Syntax                                      |Description
 ------------|---------|-------|--------------------------------------------|-------------------------------
 title       |string   |false  |string \| false                             |Default is false if no title prop is present
-type        |string   |radial |'radial' \| 'bar'                           |Type: 
+type        |string   |radial |'radial \| bar'                           |Type
 max         |number   |100    |                                            |Default max is 100
 percentage  |number   |75     |                                            |Default percentage is 75
 percentages |array    |       |{**value**: *number*, **label**: *string*}  |Array of objects
@@ -55,10 +55,10 @@ height         |number   |auto   |                |Canvas width default is **aut
 
 ### Styles
 
-Name                |Type     |Default|Syntax                         |Description
---------------------|---------|-------|-------------------------------|----------------------------------------
-background          |string   |#FFF   |RGB\/A \| HEX \| COLOR         |Background color for canvas
-progressTextAlign   |string   |center |'center|end|left|right|start'  |Default alignment for progress text is **center**. 
+Name                |Type     |Default|Syntax                             |Description
+--------------------|---------|-------|-----------------------------------|----------------------------------------
+background          |string   |#FFF   |RGB\/A \| HEX \| COLOR             |Background color for canvas
+progressTextAlign   |string   |center |'center\|end\|left\|right\|start'  |Default alignment for progress text is **center**
 
 
 ### Stroke
